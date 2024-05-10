@@ -1,4 +1,17 @@
+body {
+	margin: 10%;
+	margin-top:2%;
+}
+
 .Color {
+	display: flex;
+	/*margin: 10%;*/
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.colorbox {
 	display: flex;
 	margin-left: 10%;
 	flex-direction: column;

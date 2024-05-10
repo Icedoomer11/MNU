@@ -5,7 +5,9 @@ let sliderC;
 let size = 360
 
 function setup() {
-  createCanvas(size , size);
+  const colorboxDiv = document.querySelector('.colorbox');
+  const canvas = createCanvas(size, size);
+  canvas.parent(colorboxDiv);
 
   // Create a slider and place it at the top of the canvas.
   sliderA = createSlider(0, 255);
