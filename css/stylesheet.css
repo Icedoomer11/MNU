@@ -1,0 +1,6 @@
+.Color {
+	display: flex;
+	margin-left: 10%;
+	flex-direction: column;
+	justify-content: center;
+}
