@@ -5,7 +5,9 @@ let sliderC;
 let size = 360
 
 function setup() {
+
   const colorboxDiv = document.querySelector('.colorbox');
+
   const canvas = createCanvas(size, size);
   canvas.parent(colorboxDiv);
 
@@ -14,6 +16,7 @@ function setup() {
   sliderB = createSlider(0, 255);
   sliderC = createSlider(0, 255);
   //sliderA.position(10, 10);
+
   sliderA.size(size/3);
   sliderB.size(size/3);
   sliderC.size(size/3);

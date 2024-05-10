@@ -1,6 +1,45 @@
+/*.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.noto-serif-<uniquifier> {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}*/
+
 body {
 	margin: 10%;
 	margin-top:2%;
+	background-color: #f5f5f5;
+	color: #0d1821;
+}
+
+h1, h2 {
+/*<weight> Use a value from 200 to 700*/
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+p, li, a {
+	/*color: white;*/
+  font-family: "Teachers", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+section {
+	margin-bottom: 10vh;
+	margin-top: 10vh;
 }
 
 .Color {
@@ -13,7 +52,24 @@ body {
 
 .colorbox {
 	display: flex;
-	margin-left: 10%;
+	/*margin-left: 10%;*/
 	flex-direction: column;
 	justify-content: center;
+}
+
+.sliders {
+	display: flex;
+	/*margin-left: 10%;*/
+	/*flex-direction: column;*/
+	justify-content: center;
+	align-items: center;
+}
+
+.slidernames {
+	display: flex;
+	/*margin-left: 10%;*/
+	/*flex-direction: column;*/
+	width: 360px;
+	justify-content: space-between;
+	align-items: center;
 }
