@@ -30,5 +30,25 @@ function draw() {
   let g = sliderB.value();
   let b = sliderC.value();
   
-  background(r,g,b);
+  
+  // background(r,g,b);
+  rectMode(CENTER)
+  noStroke();
+  fill(r,g,b);
+  rect(180,120,200,200);
+  
+  rectMode(CENTER)
+  noStroke();
+  fill(r,0,0);
+  rect(180-30,300,30,40);
+  
+  rectMode(CENTER)
+  noStroke();
+  fill(0,g,0);
+  rect(180,300,30,40);
+  
+  rectMode(CENTER)
+  noStroke();
+  fill(0,0,b);
+  rect(180+30,300,30,40);
 }
