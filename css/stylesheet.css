@@ -21,12 +21,22 @@ body {
 	color: #0d1821;
 }
 
-h1, h2 {
+h1 {
 /*<weight> Use a value from 200 to 700*/
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+  font-size: 180%;
+}
+
+h2 {
+/*<weight> Use a value from 200 to 700*/
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 140%;
 }
 
 p, li, a {
@@ -57,13 +67,13 @@ section {
 	justify-content: center;
 }
 
-.sliders {
+.colorbox {
 	display: flex;
 	/*margin-left: 10%;*/
-	/*flex-direction: column;*/
+	flex-direction: row;
 	justify-content: center;
-	align-items: center;
 }
+
 
 .slidernames {
 	display: flex;
@@ -71,5 +81,21 @@ section {
 	/*flex-direction: column;*/
 	width: 360px;
 	justify-content: space-between;
+	align-items: center;
+}
+
+.RGBSection{
+	display: flex;
+	/*margin-left: 10%;*/
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.sketch1{
+	display: flex;
+	/*margin-left: 10%;*/
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 }
