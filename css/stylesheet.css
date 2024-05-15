@@ -47,6 +47,11 @@ p, li, a {
   font-style: normal;
 }
 
+.today{
+	font-style: bold;
+}
+
+
 section {
 	margin-bottom: 10vh;
 	margin-top: 10vh;
