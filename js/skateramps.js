@@ -7,13 +7,16 @@ function preload() {
   ramps.push(loadModel('obj/ramp2.obj'));
   ramps.push(loadModel('obj/ramp3.obj'));
   ramps.push(loadModel('obj/ramp4.obj'));
+  ramps.push(loadModel('obj/ramp5.obj'));
+  ramps.push(loadModel('obj/ramp6.obj'));
+  ramps.push(loadModel('obj/ramp7.obj'));
   // Add more ramps if needed
 }
 
 function setup() {
   const Sketch1 = document.querySelector('.sketch1'); // Get the container element
 
-  const canvas = createCanvas(1000, 500, WEBGL); // Create WebGL canvas
+  const canvas = createCanvas(1000, 600, WEBGL); // Create WebGL canvas
   canvas.parent(Sketch1); // Set the parent of the canvas to the container element
 
   // Define the texture color
