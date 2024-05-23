@@ -97,10 +97,16 @@ section {
 	align-items: center;
 }
 
-.sketch1{
-	display: flex;
-	/*margin-left: 10%;*/
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+.sketch1 {
+    position: relative; /* Add this line to make .sketch1 a positioned container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cycle-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
